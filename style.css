@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+#timebox {
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    border: 3px solid;
+    width: 300px;
+}
+#datebox{
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    border: 3px solid;
+    width: 300px;
+}
+#formatbox{
+    padding: 12px;
+    display: inline-block;
+    border: 3px solid;
+    width: 300px;
+}
+.hourselect{
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid;
+    width: 150px;
+}
+.dataselect{
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid;
+    width: 150px;
+}

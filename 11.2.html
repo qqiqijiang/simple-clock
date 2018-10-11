@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>today</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="lab.js" defer></script>
+    <script src="format.js" defer></script>
+</head>
+
+<body>
+
+<div><input id="timebox" type="text" value="timetype" disabled="disabled"></div>
+<br>
+<div><input id="datebox" type="text" value="daytype"  disabled="disabled"></div>
+<br>
+<div id="formatbox">
+        <span>Set Time Format:
+        <select id="hourselect" class="hourselect" onchange="timetype()" >
+                <option value="12h">12h</option>
+                <option value="24h">24h</option>
+        </select></span>
+    <br>
+        <span>Set Date Format:
+        <select id="formatselect" class="dataselect" onchange="daytype()">
+                <option value="long">long format</option>
+                <option value="short">short format</option>
+        </select></span>
+</div>
+
+</body>
+</html>
